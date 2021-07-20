@@ -1,0 +1,67 @@
+body {
+    background: url(../img/fondo4.jpg);
+     font-family: Arial, Helvetica, sans-serif; 
+     width: 50%;
+	height: 50%;
+	font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    position: absolute;
+	top: 20%;
+	left: 38%;
+}
+
+#main-container {
+    margin: 150px auto;
+    width: 600px;
+}  
+
+table {
+        background-color: #c2c2c2;
+        width: 50%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+th, td{
+    
+    padding: 10px;
+   
+}
+
+thead {
+    background-color: #c15d3b;
+    border-bottom: solid 10px #b84e24;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(190, 190, 190);
+}
+
+tr:hover td {
+    background-color: #dd9165;
+    color: white;
+}
+
+img {
+	width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top:  -125px;
+    left: calc(26% - 74px);
+}
+
+a {
+    display:block;
+    padding: 10px;    
+    width: 48%;
+    text-align:center;
+    background-color: #c15d3b;
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+	border-radius: 6px;
+	transform: translate(0%); 
+    margin-top: 20px;
+ 
+}
